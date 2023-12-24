@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter.Net.WPF.Localization", "Chapter.Net.WPF.Localization\Chapter.Net.WPF.Localization.csproj", "{90C43F72-B79C-46A2-BB5D-C06C7F361FAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter.Net.WPF.Localization", "Chapter.Net.WPF.Localization\Chapter.Net.WPF.Localization.csproj", "{90C43F72-B79C-46A2-BB5D-C06C7F361FAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
