@@ -6,9 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [1.2.0] - 2024-04-28
 ### Added
 - Add FormatterTextBlock to format named placeholders on the UI directly (moved from the Chapter.Net.WPF.Controls).
 - Add FormatterConverter to format named placeholders on the UI directly on any target control.
+- Add BBTextBlock to format translations with BB code so that translator can control bold and other formated parts of the text.
 ### Supported .Net Versions
 - .Net Core 3.0
 - .Net Framework 4.5
