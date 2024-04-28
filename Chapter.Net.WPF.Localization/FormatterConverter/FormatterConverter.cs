@@ -39,7 +39,7 @@ namespace Chapter.Net.WPF.Localization
     ///             <Binding Path="LastName" />
     ///         </MultiBinding>
     ///     </TextBlock.Text>
-    /// </TextBlock >
+    /// </TextBlock>
     /// ]]>
     /// </code>
     /// </example>

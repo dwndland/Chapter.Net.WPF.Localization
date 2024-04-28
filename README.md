@@ -10,6 +10,9 @@ Provides objects and helpers for an easy localization of the WPF application.
 - **Culture and language change events:** After set CurrentCulture and CurrentLanguage will raise also Changing and Changed events.
 - **Load translations:** Using the Translator to load translations by a key from the application resources.
 - **Names placeholders:** For proper localization the translations can contain named placeholders the Translator can format.
+- **FormatterTextBlock:** Formats the given translation.
+- **FormatterConverter:** Puts the given bound values to the Translator.Format.
+- **BBTextBlock:** This classes splits text with BB code into formatted parts.
 
 ## Getting Started
 
@@ -75,6 +78,53 @@ Provides objects and helpers for an easy localization of the WPF application.
     var title1 = translation.Format(translation, "{fileName}", fileName1);
     var title2 = translation.Format(translation, "{fileName}", fileName2);
     var title3 = translation.Format(translation, "{fileName}", fileName3);
+    ```
+
+6. **FormatterTextBlock:**
+    - Takes the given string and executes placeholder formating on it:
+    ```xaml
+    <ListBox ItemsSource="{Binding Patients}">
+        <ListBox.ItemTemplate>
+            <DataTemplate>
+                <localization:FormatterTextBlock Formatter="{DynamicResource NameFormatter}">
+                    <localization:FormatterPair Replace="{}{firstName}" With="{Binding FirstName}" />
+                    <localization:FormatterPair Replace="{}{lastName}" With="{Binding LastName}" />
+                </localization:FormatterTextBlock>
+            </DataTemplate>
+        </ListBox.ItemTemplate>
+    </ListBox>
+    ```
+
+7. **FormatterConverter:**
+    - Puts the given bound values to the Translator.Format:
+    ```xaml
+    <localization:FormatterConverter x:Key="FormatterConverter" />
+    
+    <TextBlock x:Name="nameText" Tag="{DynamicResource NameFormatter}">
+        <TextBlock.Text>
+            <MultiBinding Converter="{StaticResource FormatterConverter}">
+                <Binding Path="Tag" ElementName="nameText" />
+                <Binding>
+                    <Binding.Source>
+                        <system:String>{firstName}</system:String>
+                    </Binding.Source>
+                </Binding>
+                <Binding Path="FirstName" />
+                <Binding>
+                    <Binding.Source>
+                        <system:String>{lastName}</system:String>
+                    </Binding.Source>
+                </Binding>
+                <Binding Path="LastName" />
+            </MultiBinding>
+        </TextBlock.Text>
+    </TextBlock>
+    ```
+
+8. **BBTextBlock:**
+    - This classes splits text with BB code into formatted parts:
+    ```xaml
+    <localization:BBTextBlock BBText="This is [B]Bold[/B]." />
     ```
 
 ## Example
