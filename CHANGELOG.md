@@ -7,7 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
-- Add FormatterTextBlock which got moved from the Chapter.Net.WPF.Controls.
+- Add FormatterTextBlock to format named placeholders on the UI directly (moved from the Chapter.Net.WPF.Controls).
+- Add FormatterConverter to format named placeholders on the UI directly on any target control.
 ### Supported .Net Versions
 - .Net Core 3.0
 - .Net Framework 4.5

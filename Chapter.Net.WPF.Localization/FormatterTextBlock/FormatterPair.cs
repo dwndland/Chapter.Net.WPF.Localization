@@ -12,10 +12,10 @@ using System.Windows;
 namespace Chapter.Net.WPF.Localization
 {
     /// <summary>
-    /// Represents a replace pair within the <see cref="FormatterTextBlock" />.
+    ///     Represents a replace pair within the <see cref="FormatterTextBlock" />.
     /// </summary>
     /// <example>
-    /// <code lang="XAML">
+    ///     <code lang="XAML">
     /// <![CDATA[
     /// <ListBox ItemsSource="{Binding Patients}">
     ///     <ListBox.ItemTemplate>
