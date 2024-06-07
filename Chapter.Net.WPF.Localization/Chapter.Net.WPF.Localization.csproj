@@ -7,7 +7,7 @@
     <Authors>David Wendland</Authors>
     <Description>Provides objects and helpers for an easy localization of the WPF application.</Description>
     <Copyright>Copyright (c) 2023 David Wendland</Copyright>
-    <PackageProjectUrl>https://github.com/dwndland/Chapter.Net.WPF.Localization</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/dwndlnd/Chapter.Net.WPF.Localization</PackageProjectUrl>
     <PackageIcon>Icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
