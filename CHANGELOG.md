@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.0] - 2024-06-07
+### Changed
+- Update to support .Net 8 only.
+
 ## [1.2.0] - 2024-04-28
 ### Added
 - Add FormatterTextBlock to format named placeholders on the UI directly (moved from the Chapter.Net.WPF.Controls).

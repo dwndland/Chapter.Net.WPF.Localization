@@ -8,12 +8,9 @@ using System.Windows;
 
 // ReSharper disable once CheckNamespace
 
-namespace Chapter.Net.WPF.Localization
-{
-    /// <summary>
-    ///     The collection of formatter pairs for the <see cref="FormatterTextBlock" />.
-    /// </summary>
-    public class FormatterPairCollection : FreezableCollection<FormatterPair>
-    {
-    }
-}
+namespace Chapter.Net.WPF.Localization;
+
+/// <summary>
+///     The collection of formatter pairs for the <see cref="FormatterTextBlock" />.
+/// </summary>
+public class FormatterPairCollection : FreezableCollection<FormatterPair>;
