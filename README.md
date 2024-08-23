@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/dwndlnd/Chapter.Net.WPF.Localization/master/Icon.png" alt="logo" width="64"/>
+<img src="https://raw.githubusercontent.com/dwndland/Chapter.Net.WPF.Localization/master/Icon.png" alt="logo" width="64"/>
 
 # Chapter.Net.WPF.Localization Library
 
@@ -184,7 +184,7 @@ In that case a named placeholder gives pretty nice hints what it can be. Like {n
 
 ## Links
 * [NuGet](https://www.nuget.org/packages/Chapter.Net.WPF.Localization)
-* [GitHub](https://github.com/dwndlnd/Chapter.Net.WPF.Localization)
+* [GitHub](https://github.com/dwndland/Chapter.Net.WPF.Localization)
 
 ## License
 Copyright (c) David Wendland. All rights reserved.
