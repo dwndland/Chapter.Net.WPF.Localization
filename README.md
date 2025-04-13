@@ -3,7 +3,7 @@
 # Chapter.Net.WPF.Localization Library
 
 ## Overview
-Provides objects and helpers for an easy localization of the WPF application.
+Chapter.Net.WPF.Localization is a library that provides objects and helpers to simplify localization and dynamic language switching in WPF applications.
 
 ## Features
 - **Maintain current culture:** Use the Localizer to set and get the CurrentCulture and CurrentLanguage.

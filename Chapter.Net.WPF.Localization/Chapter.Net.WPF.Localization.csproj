@@ -5,7 +5,7 @@
     <UseWPF>true</UseWPF>
     <Version>2.1.0</Version>
     <Authors>David Wendland</Authors>
-    <Description>Provides objects and helpers for an easy localization of the WPF application.</Description>
+    <Description>Chapter.Net.WPF.Localization is a library that provides objects and helpers to simplify localization and dynamic language switching in WPF applications.</Description>
     <Copyright>Copyright (c) 2023 David Wendland</Copyright>
     <PackageProjectUrl>https://github.com/dwndland/Chapter.Net.WPF.Localization</PackageProjectUrl>
     <PackageIcon>Icon.png</PackageIcon>
